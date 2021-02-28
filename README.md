@@ -8,7 +8,7 @@ Recommender systems are the systems that are designed to recommend things to the
 
 # Choosing models and Metrics
 - As the given training data is Imbalanced, We have to avoid basic approaches like using train-test-split, normal cross validation techniques and accuracy metric for measuring, so that the model wouldn’t get biased towards a particular label.
-- Instead we can use bagging and boosting techniques **[LightGBM,CatBoost]** for classification purposes, Usage of StratifiedKFold cross validation technique will make sure that train and validation sets have both the labels to avoid overfitting, metrics such as presicion, recall, ROC curve will help get us insights on how well the classifier is performing.
+- Instead we can use bagging and boosting techniques **[LightGBM,CatBoost]** for classification purposes, Usage of **StratifiedKFold cross validation technique** will make sure that train and validation sets have both the labels to avoid overfitting, metrics such as presicion, recall, ROC curve will help get us insights on how well the classifier is performing.
 - The **precision Score** achieved is 91.6% on the test data.
 
 # Next steps
